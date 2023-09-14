@@ -94,14 +94,12 @@ sh ./scripts/anchor_points_generation.sh
 ```
 
 ## Training
-When using GLDv2 as training dataset, to train **CSD** on a single node with 2 gpus for 5 epochs run:
+When using GLDv2 as training dataset, to train **SSP** on a single node with 2 gpus for 5 epochs run:
 ```
 sh ./scripts/experiment_ours_GLDv2.sh
 ```
-A single epoch takes 4.5 hours, so 5 epoches training
-takes around 1 days on a single machine with 2 3090Ti cards.
 
-When using *SfM120k* as training dataset, to train **CSD** on a single node with 1 gpu for 10 epochs run:
+When using *SfM120k* as training dataset, to train **SSP** on a single node with 1 gpu for 10 epochs run:
 ```
 sh ./scripts/experiment_ours_SFM.sh
 ```
